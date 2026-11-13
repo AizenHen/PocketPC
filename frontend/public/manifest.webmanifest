@@ -1,0 +1,22 @@
+{
+  "name": "PocketPC",
+  "short_name": "PocketPC",
+  "description": "Private screen viewing with optional, separately approved mouse control.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#101820",
+  "theme_color": "#101820",
+  "icons": [
+    {
+      "src": "/pocketpc-app-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/pocketpc-app-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

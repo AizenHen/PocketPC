@@ -1,0 +1,51 @@
+# Local configuration, credentials, and certificates
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_rsa.*
+pocketpc.local.json
+certs/
+
+# Databases, dumps, and user data
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+
+# Logs and operating-system/editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local dependencies and environments
+.venv/
+venv/
+node_modules/
+.test-deps/
+.npm-cache/
+
+# Python caches and test reports
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated builds and installers
+build/
+dist/
+release/
+frontend/dist/
+
+# Temporary test workspaces
+tests/tmp*/
