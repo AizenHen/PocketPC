@@ -19,11 +19,13 @@ PocketPC has no keyboard, audio, clipboard, upload, download, or file access.
 - Brief Wi-Fi, Tailscale, Safari, or WebRTC interruptions automatically rebuild the encrypted connection for the already-approved iPhone. A random resume credential rotates after every successful reconnect and expires after five minutes without live activity. **STOP SHARING**, manual disconnect, expiry, or restarting PocketPC revokes it immediately.
 - Tailscale access controls still apply. Protect the tailnet account with MFA and remove devices you no longer own.
 
-## Recommended install
+## Local installer
+
+This repository contains source code and does not currently provide a public installer download. Build the installer from source using the instructions below, or use a locally built copy that you trust. The installer is not code-signed and Windows SmartScreen may block it as an unrecognized app.
 
 1. Install and connect Tailscale on Windows first.
 2. Close any older PocketPC window.
-3. Download `PocketPC-Setup-1.7.0.exe` from the [v1.7.0 release](https://github.com/AizenHen/PocketPC/releases/tag/v1.7.0), or copy that same installer to the PC on a USB drive. Run it and approve the Windows administrator prompt. Cloning or downloading the source repository does not include the installer.
+3. Run your locally built `release\PocketPC-Setup-1.7.0.exe` and approve the Windows administrator prompt. Cloning or downloading this source repository does not include the installer.
 4. Follow the guided Tailscale check. Setup verifies that Tailscale is installed, signed in, connected, and has a private address before continuing.
 5. Choose the installation folder and whether to create a desktop shortcut.
 6. Launch PocketPC from the desktop shortcut when setup finishes.
